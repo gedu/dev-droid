@@ -19,8 +19,8 @@ public class ContWind extends Activity{
 		//TextView viewSex = (TextView)findViewById(R.id.sex);
 		Toast toast3 = Toast.makeText(getApplicationContext(),"Hi there!",Toast.LENGTH_SHORT);
 		toast3.show();
-		Toast toast2 = Toast.makeText(getApplicationContext(),"Helo!",Toast.LENGTH_SHORT);
-		toast2.show();
+		Toast toast1 = Toast.makeText(getApplicationContext(),"Helo!",Toast.LENGTH_SHORT);
+		toast1.show();
 		Bundle bndInf = getIntent().getExtras();
 		Log.d("ContWind","name: "+bndInf.getString("NAME"));
 		viewName.setText("Tu nombre es: "+bndInf.getString("NAME"));
