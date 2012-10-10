@@ -1,0 +1,87 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:background="#552223"
+        android:padding="5dp" >
+
+        <QuickContactBadge
+            android:id="@+id/quickContactBadge1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:background="#16711681"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/viewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/name" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:background="#16711681"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/viewSurname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/surname" />
+
+        <EditText
+            android:id="@+id/txtSurname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/surname" />
+    </TableRow>
+
+    
+        <RadioGroup android:id="@+id/radioGbtns"
+            android:background="#16711681">
+			<RadioButton
+                android:id="@+id/radioBtnFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female" />
+
+            <RadioButton
+                android:id="@+id/radioBtnMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male" />
+        </RadioGroup>
+    
+
+    <TableRow
+        android:background="#16711681"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/btnCancl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btnCont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showMsg" />
+    </TableRow>
+
+</TableLayout>

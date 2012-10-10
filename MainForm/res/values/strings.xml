@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">MainForm</string>
+    <string name="name">Name</string>
+    <string name="surname">Last name</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="showMsg">Continue</string>
+    <string name="msj">$msj</string>
+    <string name="cancel">Cancel</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_form">MainForm</string>
+
+</resources>
